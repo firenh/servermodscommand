@@ -1,9 +1,14 @@
-# Fabric Example Mod
+# servermodscommand
 
-## Setup
+## A simple mod to add a command to view all mods on the server.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+Usage: 
+ - `/mods` => View a list of (most) mods on the server.
+ - `/mods all` => View a list of all mods on the server.
+    - `/mods` will hide all mods developed by FabricMC or with the ID of `java` or `minecraft` to reduce clutter; `/mods all` shows all of them.
+ - Hover over the mod in the list to see ID, version, description, and authors.
+ - Click on a mod in the list or type `/mods details {modid}` to view further details.
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Planned features:
+ - Mods can customize what colour they appear as in the list
+ - A config to hide mods from the list
