@@ -1,0 +1,14 @@
+{
+    "servermodscommand.command.mods.feedback": "Found %s mods on the server!\n\n%s",
+    "servermodscommand.command.mods.modnotfound": "Mod \"%s\" not found on server!",
+    "servermodscommand.command.mods.version": "Version: %s",
+    "servermodscommand.command.mods.license": "License: %s",
+    "servermodscommand.command.mods.contact": "%s: %s",
+    "servermodscommand.command.mods.contactinfo": "Contact Information",
+    "servermodscommand.command.mods.authors": "Author(s)",
+    "servermodscommand.command.mods.contributors": "Contributor(s)",
+    "servermodscommand.command.mods.followlink": "Click to follow link!",
+    "homepage": "Homepage",
+    "sources": "Sources",
+    "servermodscommand.generic.mod": "Mod"
+}

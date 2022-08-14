@@ -1,0 +1,33 @@
+{
+    "schemaVersion": 1,
+    "id": "servermodscommand",
+    "version": "${version}",
+    "name": "Server Mods Command",
+    "description": "Adds a command to list all of the mods on a server.",
+    "authors": [
+        {
+            "name": "FireNH",
+            "contact": {
+                "homepage": "https://github.com/firenh"
+            }
+        }
+    ],
+    "contact": {
+        "homepage": "https://modrinth.com/mod/servermodscommand",
+        "sources": "https://github.com/firenh/servermodscommand"
+    },
+    "license": "LGPL-3.0",
+    "icon": "assets/servermodscommand/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "fireopal.servermodscommand.ServerModsCommand"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=0.14.6",
+        "fabric": "*",
+        "minecraft": "1.19.x",
+        "java": ">=17"
+    }
+}
